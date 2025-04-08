@@ -6,7 +6,7 @@
 - [Aarush Mandoliya](https://github.com/JustAnoobCat)  
 - [Mansi](https://github.com/blackhat289) 
 - [Diksha](https://github.com/Diksha940)
-- [Karan Singh Chauhan]  
+- [Karan Singh Chauhan](https://github.com/karan-0007)  
 
 ---
 
