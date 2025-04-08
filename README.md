@@ -35,4 +35,4 @@ The Smart Campus Navigator is a web application that helps students, staff, and 
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/YourUsername/SmartCampusNavigator.git
+git clone https://github.com/JustAnoobCat/Smart-Campus-Navigator.git
