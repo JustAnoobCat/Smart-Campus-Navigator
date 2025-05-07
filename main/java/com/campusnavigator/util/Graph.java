@@ -1,6 +1,7 @@
 package com.campusnavigator.util;
 
 import java.util.*;
+import com.campusnavigator.model.Edge;
 
 public class Graph {
     public Map<Integer, List<Edge>> adj = new HashMap<>();
