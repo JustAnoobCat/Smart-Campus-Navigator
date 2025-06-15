@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Campus Navigator</title>
+    <meta name="viewport" content="width=1200, initial-scale=1">
+    <link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+    <header>
+        <h1>Smart Campus Navigator</h1>
+    </header>
+    <main>
+        <div class="controls">
+            <label for="startLocation"><strong>From:</strong></label>
+            <select id="startLocation"></select>
+            <label for="endLocation"><strong>To:</strong></label>
+            <select id="endLocation"></select>
+            <button id="findPathBtn">Find Path</button>
+        </div>
+        <div class="floor-controls">
+            <button onclick="showFloor(1)">Floor 1</button>
+            <button onclick="showFloor(2)">Floor 2</button>
+            <button onclick="showFloor(3)">Floor 3</button>
+        </div>
+        <div class="map-container" style="position:relative; width:1200px; height:900px; margin:auto;">
+            <object id="svgMap1" type="image/svg+xml" data="Floor1.svg" style="position:absolute; left:0; top:0; width:100%; height:100%; z-index:1; display:block;"></object>
+            <object id="svgMap2" type="image/svg+xml" data="Floor2.svg" style="position:absolute; left:0; top:0; width:100%; height:100%; z-index:1; display:none;"></object>
+            <object id="svgMap3" type="image/svg+xml" data="Floor3.svg" style="position:absolute; left:0; top:0; width:100%; height:100%; z-index:1; display:none;"></object>
+            <svg id="campusMap" width="1200" height="900" style="position:absolute; left:0; top:0; z-index:2;"></svg>
+        </div>
+        <dialog id="dialog" style="min-width:320px; font-size:1.1rem;"></dialog>
+    </main>
+    <footer>
+        &copy; 2025 Smart Campus Navigator
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: #F8FAFC;
+    color: #22223B;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+header {
+    background: #2A9D8F;
+    color: #fff;
+    padding: 2rem 1rem 1.2rem 1rem;
+    box-shadow: 0 4px 24px rgba(42,157,143,0.08);
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    letter-spacing: 1.2px;
+    font-weight: 800;
+    text-shadow: 0 2px 8px #1e524d22;
+}
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 2rem auto 1.5rem auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(42,157,143,0.08);
+    padding: 1.2rem 2rem;
+    max-width: 900px;
+}
+label {
+    font-weight: 600;
+    color: #2A9D8F;
+    letter-spacing: 0.5px;
+}
+select {
+    padding: 0.6rem 1.1rem;
+    border-radius: 8px;
+    border: 1.5px solid #E9C46A;
+    background: #F8FAFC;
+    color: #22223B;
+    font-size: 1rem;
+    min-width: 180px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 1px 4px #2A9D8F10;
+}
+select:focus {
+    border-color: #2A9D8F;
+    outline: none;
+}
+button {
+    padding: 0.7rem 1.7rem;
+    background: linear-gradient(90deg, #2A9D8F 60%, #E76F51 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    box-shadow: 0 2px 12px #2A9D8F22;
+    transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+}
+button:hover, button:focus {
+    background: linear-gradient(90deg, #E76F51 60%, #2A9D8F 100%);
+    color: #fff;
+    box-shadow: 0 4px 24px #E76F5140;
+    outline: none;
+}
+.map-container {
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 40px #2A9D8F11;
+    overflow: hidden;
+    border: 2px solid #E9C46A;
+}
+#campusMap {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 12px;
+    background: transparent;
+    z-index: 2;
+}
+.marker {
+    stroke: #fff;
+    stroke-width: 4;
+    opacity: 0.97;
+}
+.marker:first-child { fill: #2A9D8F; stroke: #E9C46A; stroke-width: 7; }
+.marker:last-child { fill: #E76F51; stroke: #F4A261; stroke-width: 7; }
+.highlight-path {
+    stroke: #2A9D8F;
+    stroke-width: 12;
+    opacity: 0.8;
+    stroke-linecap: round;
+    filter: drop-shadow(0 0 8px #2A9D8F55);
+}
+dialog {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 2px 18px #2A9D8F22;
+    padding: 1.5rem 2rem;
+    font-size: 1.1rem;
+    background: #fff;
+    color: #22223B;
+    text-align: center;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    background: #2A9D8F;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    letter-spacing: 1px;
+}
+@media (max-width: 1300px) {
+    .map-container { width: 100vw; height: 60vw; min-width: 0; }
+}
+@media (max-width: 900px) {
+    .map-container { width: 100vw; height: 70vw; }
+    .controls { flex-direction: column; gap: 0.8rem; padding: 1rem 0.5rem;}
+}
