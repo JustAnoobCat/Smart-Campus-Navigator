@@ -29,7 +29,6 @@ The Smart Campus Navigator is a web application that helps students, staff, and 
 - **Frontend**: HTML, CSS, JavaScript  
 - **Backend**: Java  
 - **Pathfinding Logic**: Dijkstra/A* algorithms  
-- **Database**: MySQL
 
 ---
 
