@@ -2,6 +2,14 @@
 
 A Java-based web application that helps users navigate efficiently through the university campus by providing the shortest path between locations. Designed to assist students, faculty, and visitors in locating classrooms, labs, offices, and facilities.
 
+👨‍💻 **Team Members**:  
+- [Aarush Mandoliya](https://github.com/JustAnoobCat)  
+- [Mansi](https://github.com/blackhat289) 
+- [Diksha](https://github.com/Diksha940)
+- [Karan Singh Chauhan](https://github.com/karan-0007)  
+
+---
+
 ## 🚀 Features
 
 - 🗺️ Interactive campus map
@@ -16,11 +24,15 @@ A Java-based web application that helps users navigate efficiently through the u
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Java
 - **Pathfinding Algorithm:** Dijkstra's Algorithm
-- **Tooling:** VS Code, JDK, Apache Server (optional)
+- **Tooling:** VS Code, JDK
 
 ## 📸 Screenshots
 
-> _You can add screenshots here of the map UI, shortest path demo, etc._
+![image](https://github.com/user-attachments/assets/1809f365-c77a-4cd0-8b63-54266d869598)
+![image](https://github.com/user-attachments/assets/e385be9c-7981-4bd0-8a27-7734a8a3f19e)
+![image](https://github.com/user-attachments/assets/e64d5c65-392b-4092-a8c2-210cf862cf88)
+
+
 
 ## 🔍 How It Works
 
@@ -28,13 +40,6 @@ A Java-based web application that helps users navigate efficiently through the u
 2. The app sends these coordinates to the Java backend.
 3. Dijkstra's algorithm computes the shortest path.
 4. The path is highlighted visually on the map.
-
-## 🧑‍💻 Contributors
-
-- Aarush Mandoliya (Frontend & UI)
-- [Team Member 2]
-- [Team Member 3]
-- [Team Member 4]
 
 ## 📦 Project Setup
 
