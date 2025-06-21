@@ -39,10 +39,11 @@ A Java-based web application that helps users navigate efficiently through the u
 
 ## 🔍 How It Works
 
-1. User selects a source and destination on the campus map.
-2. The app sends these coordinates to the Java backend.
-3. Dijkstra's algorithm computes the shortest path.
-4. The path is shown in both **text** and **visual format** on the map.
+1. The map is based on the **Graphic Era Hill University** campus layout. All locations and coordinates were manually mapped by the team for accurate navigation.
+2. User selects a source and destination on the campus map.
+3. The app sends these coordinates to the Java backend.
+4. Dijkstra's algorithm computes the shortest path.
+5. The path is shown in both **text** and **visual format** on the map.
 
 ## 📦 Project Setup
 
