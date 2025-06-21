@@ -29,13 +29,13 @@ A Java-based web application that helps users navigate efficiently through the u
 ## 🖼️ Demo Screenshots
 
 ### 1. Selecting Source and Destination
-![Select source and destination]![image](https://github.com/user-attachments/assets/1809f365-c77a-4cd0-8b63-54266d869598)
+![image](https://github.com/user-attachments/assets/1809f365-c77a-4cd0-8b63-54266d869598)
 
 ### 2. Path Displayed in Text
-![Path in text format]![image](https://github.com/user-attachments/assets/e385be9c-7981-4bd0-8a27-7734a8a3f19e)
+![image](https://github.com/user-attachments/assets/e385be9c-7981-4bd0-8a27-7734a8a3f19e)
 
 ### 3. Shortest Path Highlighted on Map
-![Path highlighted on map]![image](https://github.com/user-attachments/assets/e64d5c65-392b-4092-a8c2-210cf862cf88)
+![image](https://github.com/user-attachments/assets/e64d5c65-392b-4092-a8c2-210cf862cf88)
 
 ## 🔍 How It Works
 
