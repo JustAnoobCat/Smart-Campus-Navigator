@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Navigator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <span>CampusNav</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#map-section">Map</a></li>
+            <li><a href="#route-finder">Route Finder</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Navigate Your Campus<br><span class="highlight">With Precision</span></h1>
+            <p>Find the shortest path to your classrooms, labs, and offices instantly. Experience smart navigation like never before.</p>
+            <div class="hero-buttons">
+                <a href="#map-section" class="btn primary-btn">Explore Campus</a>
+                <a href="#route-finder" class="btn secondary-btn">Find Route</a>
+            </div>
+        </div>
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+    </section>
+
+    <section id="route-finder" class="route-section">
+        <div class="route-card glassmorphism">
+            <h2><i class="fa-solid fa-route"></i> Plan Your Journey</h2>
+            <div class="search-container">
+                <div class="input-group">
+                    <label for="startInput"><i class="fa-solid fa-location-dot"></i> Starting Point</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="startInput" placeholder="Search or select location..." autocomplete="off">
+                        <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                    </div>
+                    <div id="startAutocomplete" class="autocomplete-list hidden"></div>
+                </div>
+                <div class="input-group">
+                    <label for="endInput"><i class="fa-solid fa-flag-checkered"></i> Destination</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="endInput" placeholder="Search or select destination..." autocomplete="off">
+                        <i class="fa-solid fa-chevron-down dropdown-icon"></i>
+                    </div>
+                    <div id="endAutocomplete" class="autocomplete-list hidden"></div>
+                </div>
+            </div>
+            <button id="findPathBtn" class="btn calculate-btn"><i class="fa-solid fa-magnifying-glass-location"></i> Find Shortest Path</button>
+            
+            <div id="routeResults" class="route-results hidden">
+                <h3>Route Summary</h3>
+                <div class="stats">
+                    <div class="stat-item">
+                        <i class="fa-solid fa-shoe-prints"></i>
+                        <span id="distanceStat">--</span>
+                        <small>Steps</small>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <span id="timeStat">--</span>
+                        <small>Mins walking</small>
+                    </div>
+                </div>
+                <div class="path-details" id="pathDetails"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="map-section" class="map-section">
+        <div class="layout-container">
+            <div class="map-card glassmorphism">
+                <div class="map-header">
+                    <h2><i class="fa-regular fa-map"></i> Campus Map</h2>
+                    <div class="floor-controls">
+                        <button class="floor-btn active" onclick="showFloor(1)" id="floorBtn1">1st Floor</button>
+                        <button class="floor-btn" onclick="showFloor(2)" id="floorBtn2">2nd Floor</button>
+                        <button class="floor-btn" onclick="showFloor(3)" id="floorBtn3">3rd Floor</button>
+                    </div>
+                </div>
+                
+                <div class="map-wrapper">
+                    <div id="mapLoader" class="loader-overlay hidden">
+                        <div class="spinner"></div>
+                        <p>Calculating Route...</p>
+                    </div>
+
+                    <div class="map-container-inner" id="mapPanZoom">
+                        <object id="svgMap1" type="image/svg+xml" data="Floor1.svg" class="map-layer active-map"></object>
+                        <object id="svgMap2" type="image/svg+xml" data="Floor2.svg" class="map-layer"></object>
+                        <object id="svgMap3" type="image/svg+xml" data="Floor3.svg" class="map-layer"></object>
+                        <svg id="campusMap" viewBox="0 0 1200 900" class="overlay-svg"></svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sidebar glassmorphism hidden" id="locationSidebar">
+                <div class="sidebar-header">
+                    <h3>Location Info</h3>
+                    <button id="closeSidebar"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="sidebar-content">
+                    <h4 id="sidebarTitle">Room Name</h4>
+                    <p class="floor-badge"><i class="fa-solid fa-building"></i> Floor <span id="sidebarFloor">1</span></p>
+                    <div class="sidebar-actions">
+                        <button class="btn sm-btn" id="setAsStartBtn">Set as Start</button>
+                        <button class="btn sm-btn outline" id="setAsEndBtn">Set as End</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fa-solid fa-map-location-dot"></i> CampusNav
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 Smart Campus Navigator. Designed for modern navigation.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,572 @@
+[
+  {
+    "id": "Female Lift-2",
+    "label": "Female Lift-2 (525,410)",
+    "floor": 2
+  },
+  {
+    "id": "Female Lift-3",
+    "label": "Female Lift-3 (525,410)",
+    "floor": 3
+  },
+  {
+    "id": "Stairs9",
+    "label": "Stairs9 (345,30)",
+    "floor": 2
+  },
+  {
+    "id": "Stairs8",
+    "label": "Stairs8 (560,410)",
+    "floor": 2
+  },
+  {
+    "id": "Stairs7",
+    "label": "Stairs7 (915,760)",
+    "floor": 2
+  },
+  {
+    "id": "Stairs6",
+    "label": "Stairs6 (205,760)",
+    "floor": 2
+  },
+  {
+    "id": "IOT Lab",
+    "label": "IOT Lab (425,760)",
+    "floor": 3
+  },
+  {
+    "id": "ServerRoom",
+    "label": "Server Room (595,380)",
+    "floor": 1
+  },
+  {
+    "id": "Downstairs6",
+    "label": "Downstairs6 (920,155)",
+    "floor": 3
+  },
+  {
+    "id": "Lt-201",
+    "label": "LT-201 (265,200)",
+    "floor": 1
+  },
+  {
+    "id": "Downstairs5",
+    "label": "Downstairs5 (235,190)",
+    "floor": 3
+  },
+  {
+    "id": "Lt-202",
+    "label": "LT-202 (855,200)",
+    "floor": 1
+  },
+  {
+    "id": "Downstairs4",
+    "label": "Downstairs4 (920,155)",
+    "floor": 2
+  },
+  {
+    "id": "Downstairs3",
+    "label": "Downstairs3 (200,155)",
+    "floor": 2
+  },
+  {
+    "id": "Downstairs2",
+    "label": "Downstairs 2 (920,155)",
+    "floor": 1
+  },
+  {
+    "id": "Downstairs1",
+    "label": "Downstairs 1 (200,155)",
+    "floor": 1
+  },
+  {
+    "id": "Upstairs4",
+    "label": "Upstairs4 (880,190)",
+    "floor": 2
+  },
+  {
+    "id": "MaleLift",
+    "label": "Male Lift (595,410)",
+    "floor": 1
+  },
+  {
+    "id": "Upstairs3",
+    "label": "Upstairs3 (235,190)",
+    "floor": 2
+  },
+  {
+    "id": "c1",
+    "label": "Connection 1 (345,410)",
+    "floor": 1
+  },
+  {
+    "id": "Upstairs2",
+    "label": "Upstairs 2 (880,190)",
+    "floor": 1
+  },
+  {
+    "id": "c2",
+    "label": "Connection 2 (775,410)",
+    "floor": 1
+  },
+  {
+    "id": "Upstairs1",
+    "label": "Upstairs 1 (235,190)",
+    "floor": 1
+  },
+  {
+    "id": "c3",
+    "label": "Connection 3 (525,200)",
+    "floor": 1
+  },
+  {
+    "id": "c4",
+    "label": "Connection 4 (595,200)",
+    "floor": 1
+  },
+  {
+    "id": "CR-406",
+    "label": "CR-406 (675,200)",
+    "floor": 3
+  },
+  {
+    "id": "c5",
+    "label": "c5 (345,410)",
+    "floor": 2
+  },
+  {
+    "id": "Upstairs6",
+    "label": "Upstairs6 (880,190)",
+    "floor": 3
+  },
+  {
+    "id": "c6",
+    "label": "c6 (775,410)",
+    "floor": 2
+  },
+  {
+    "id": "Upstairs5",
+    "label": "Upstairs5 (265,200)",
+    "floor": 3
+  },
+  {
+    "id": "c7",
+    "label": "c7 (525,200)",
+    "floor": 2
+  },
+  {
+    "id": "CR-403",
+    "label": "CR-403 (525,200)",
+    "floor": 3
+  },
+  {
+    "id": "c8",
+    "label": "c8 (595,200)",
+    "floor": 2
+  },
+  {
+    "id": "CR-402",
+    "label": "CR-402 (915,760)",
+    "floor": 3
+  },
+  {
+    "id": "CR-405",
+    "label": "CR-405 (875,30)",
+    "floor": 3
+  },
+  {
+    "id": "CR-404",
+    "label": "CR-404 (245,30)",
+    "floor": 3
+  },
+  {
+    "id": "CR-401",
+    "label": "CR-401 (595,410)",
+    "floor": 3
+  },
+  {
+    "id": "PharmaChem-2",
+    "label": "PharmaChem-2 (535,760)",
+    "floor": 2
+  },
+  {
+    "id": "PharmaChem-1",
+    "label": "PharmaChem-1 (785,760)",
+    "floor": 2
+  },
+  {
+    "id": "c11_3",
+    "label": "c11 (595,200)",
+    "floor": 3
+  },
+  {
+    "id": "Lab2",
+    "label": "Lab-2 (775,610)",
+    "floor": 1
+  },
+  {
+    "id": "Female Staff WC-2",
+    "label": "Female Staff WC-2 (200,75)",
+    "floor": 2
+  },
+  {
+    "id": "Female Staff WC-3",
+    "label": "Female Staff WC-3 (200,75)",
+    "floor": 3
+  },
+  {
+    "id": "c9_3",
+    "label": "c9 (345,410)",
+    "floor": 3
+  },
+  {
+    "id": "Staff Room-6",
+    "label": "Staff Room-6 (345,410)",
+    "floor": 3
+  },
+  {
+    "id": "VCOffice",
+    "label": "VC's Office (875,30)",
+    "floor": 1
+  },
+  {
+    "id": "Staff Room-4",
+    "label": "Staff Room-4 (95,30)",
+    "floor": 2
+  },
+  {
+    "id": "Staff Room-5",
+    "label": "Staff Room-5 (560,410)",
+    "floor": 3
+  },
+  {
+    "id": "Staff Room-2",
+    "label": "Staff Room-2 (525,380)",
+    "floor": 2
+  },
+  {
+    "id": "Lab8",
+    "label": "Lab 8 (345,610)",
+    "floor": 1
+  },
+  {
+    "id": "Staff Room-3",
+    "label": "Staff Room-3 (595,380)",
+    "floor": 2
+  },
+  {
+    "id": "FemaleStaffWC",
+    "label": "Female Staff WC (200,75)",
+    "floor": 1
+  },
+  {
+    "id": "Basic Electrical Lab",
+    "label": "Basic Electrical Lab (775,610)",
+    "floor": 3
+  },
+  {
+    "id": "MaleWC",
+    "label": "Male WC (915,710)",
+    "floor": 1
+  },
+  {
+    "id": "Pharmacognosy-2",
+    "label": "Pharmacognosy-2 (485,760)",
+    "floor": 2
+  },
+  {
+    "id": "Pharmacognosy-1",
+    "label": "Pharmacognosy-1 (425,760)",
+    "floor": 2
+  },
+  {
+    "id": "TCL 3/4",
+    "label": "TCL 3/4 (1025,30)",
+    "floor": 3
+  },
+  {
+    "id": "Male Staff WC-3",
+    "label": "Male Staff WC-3 (920,75)",
+    "floor": 3
+  },
+  {
+    "id": "Male Staff WC-2",
+    "label": "Male Staff WC-2 (920,75)",
+    "floor": 2
+  },
+  {
+    "id": "Animation",
+    "label": "Animation (1025,30)",
+    "floor": 2
+  },
+  {
+    "id": "c10_3",
+    "label": "c10 (595,380)",
+    "floor": 3
+  },
+  {
+    "id": "PresidentOffice",
+    "label": "President's Office (245,30)",
+    "floor": 1
+  },
+  {
+    "id": "Lab-4",
+    "label": "Lab-4 (595,200)",
+    "floor": 3
+  },
+  {
+    "id": "Lab-7",
+    "label": "Lab-7 (345,610)",
+    "floor": 2
+  },
+  {
+    "id": "Lab-3",
+    "label": "Lab-3 (775,610)",
+    "floor": 2
+  },
+  {
+    "id": "FacultyRoom",
+    "label": "Faculty Room (775,710)",
+    "floor": 1
+  },
+  {
+    "id": "Male Lift-2",
+    "label": "Male Lift-2 (595,410)",
+    "floor": 2
+  },
+  {
+    "id": "Male Lift-3",
+    "label": "Male Lift-3 (595,410)",
+    "floor": 3
+  },
+  {
+    "id": "FemaleLift",
+    "label": "Female Lift (525,410)",
+    "floor": 1
+  },
+  {
+    "id": "CR-205",
+    "label": "CR-205 (425,760)",
+    "floor": 1
+  },
+  {
+    "id": "CR-204",
+    "label": "CR-204 (485,760)",
+    "floor": 1
+  },
+  {
+    "id": "CR-207",
+    "label": "CR-207 (675,200)",
+    "floor": 1
+  },
+  {
+    "id": "CR-206",
+    "label": "CR-206 (445,200)",
+    "floor": 1
+  },
+  {
+    "id": "CR-201",
+    "label": "CR-201 (885,760)",
+    "floor": 1
+  },
+  {
+    "id": "Lt-401",
+    "label": "Lt-401 (445,200)",
+    "floor": 3
+  },
+  {
+    "id": "Lt-402",
+    "label": "Lt-402 (880,190)",
+    "floor": 3
+  },
+  {
+    "id": "CR-203",
+    "label": "CR-203 (535,760)",
+    "floor": 1
+  },
+  {
+    "id": "CR-202",
+    "label": "CR-202 (785,760)",
+    "floor": 1
+  },
+  {
+    "id": "Library",
+    "label": "Library (95,30)",
+    "floor": 1
+  },
+  {
+    "id": "TCL",
+    "label": "TCL (1025,30)",
+    "floor": 1
+  },
+  {
+    "id": "stairs1",
+    "label": "Stairs 1 (205,760)",
+    "floor": 1
+  },
+  {
+    "id": "Logic Design lab",
+    "label": "Logic Design lab (775,410)",
+    "floor": 3
+  },
+  {
+    "id": "CSE Department",
+    "label": "CSE Department (95,30)",
+    "floor": 3
+  },
+  {
+    "id": "ERPCell",
+    "label": "ERP Cell (345,710)",
+    "floor": 1
+  },
+  {
+    "id": "Faculty Room-2",
+    "label": "Faculty Room-2 (775,710)",
+    "floor": 2
+  },
+  {
+    "id": "Male WC-3",
+    "label": "Male WC-3 (915,710)",
+    "floor": 3
+  },
+  {
+    "id": "FemaleWC",
+    "label": "Female WC (205,710)",
+    "floor": 1
+  },
+  {
+    "id": "Male WC-2",
+    "label": "Male WC-2 (915,710)",
+    "floor": 2
+  },
+  {
+    "id": "Faculty Room-3",
+    "label": "Faculty Room-3 (595,200)",
+    "floor": 3
+  },
+  {
+    "id": "stairs5",
+    "label": "Stairs 5 (775,30)",
+    "floor": 1
+  },
+  {
+    "id": "stairs4",
+    "label": "Stairs 4 (345,30)",
+    "floor": 1
+  },
+  {
+    "id": "stairs3",
+    "label": "Stairs 3 (560,410)",
+    "floor": 1
+  },
+  {
+    "id": "MaleStaffWC",
+    "label": "Male Staff WC (920,75)",
+    "floor": 1
+  },
+  {
+    "id": "stairs2",
+    "label": "Stairs 2 (915,760)",
+    "floor": 1
+  },
+  {
+    "id": "Basic Electronic Lab",
+    "label": "Basic Electronic Lab (885,760)",
+    "floor": 3
+  },
+  {
+    "id": "Stairs15",
+    "label": "Stairs15 (775,30)",
+    "floor": 3
+  },
+  {
+    "id": "Stairs14",
+    "label": "Stairs14 (345,30)",
+    "floor": 3
+  },
+  {
+    "id": "Stairs13",
+    "label": "Stairs13 (345,610)",
+    "floor": 3
+  },
+  {
+    "id": "Stairs12",
+    "label": "Stairs12 (595,200)",
+    "floor": 3
+  },
+  {
+    "id": "Stairs11",
+    "label": "Stairs11 (535,760)",
+    "floor": 3
+  },
+  {
+    "id": "Stairs10",
+    "label": "Stairs10 (775,30)",
+    "floor": 2
+  },
+  {
+    "id": "Pharma-1",
+    "label": "Pharma-1 (885,760)",
+    "floor": 2
+  },
+  {
+    "id": "Lt-301",
+    "label": "Lt-301 (265,200)",
+    "floor": 2
+  },
+  {
+    "id": "c12_3",
+    "label": "c12 (855,200)",
+    "floor": 3
+  },
+  {
+    "id": "HOD Office-2",
+    "label": "HOD Office-2 (785,760)",
+    "floor": 3
+  },
+  {
+    "id": "CR-304",
+    "label": "CR-304 (875,30)",
+    "floor": 2
+  },
+  {
+    "id": "CR-303",
+    "label": "CR-303 (245,30)",
+    "floor": 2
+  },
+  {
+    "id": "HOD Office-1",
+    "label": "HOD Office-1 (345,710)",
+    "floor": 2
+  },
+  {
+    "id": "CR-305",
+    "label": "CR-305 (675,200)",
+    "floor": 2
+  },
+  {
+    "id": "Lt-302",
+    "label": "Lt-302 (855,200)",
+    "floor": 2
+  },
+  {
+    "id": "Female WC-2",
+    "label": "Female WC-2 (205,710)",
+    "floor": 2
+  },
+  {
+    "id": "CR-301",
+    "label": "CR-301 (445,200)",
+    "floor": 2
+  },
+  {
+    "id": "Female WC-3",
+    "label": "Female WC-3 (485,760)",
+    "floor": 3
+  },
+  {
+    "id": "StaffRoom",
+    "label": "Staff Room (525,380)",
+    "floor": 1
+  }
+]
