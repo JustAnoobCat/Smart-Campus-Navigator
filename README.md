@@ -39,13 +39,14 @@ Users can select a starting point and destination to instantly generate the shor
 
 ## Interactive Campus Map
 
-### Map View – Part 1
+## Interactive Campus Map
 
-![Campus Map Part 1](images/m1.png)
+<p align="center">
+  <img src="images/m1.png" alt="Campus Map Part 1">
+  <img src="images/m2.png" alt="Campus Map Part 2">
+</p>
 
-### Map View – Part 2
-
-![Campus Map Part 2](images/m2.png)
+The campus is represented as a graph of interconnected locations including classrooms, laboratories, offices, staircases, lifts, and facilities. Routes are highlighted directly on the map for intuitive navigation.
 
 The campus is represented as a graph of interconnected locations including classrooms, laboratories, offices, staircases, lifts, and facilities. Routes are highlighted directly on the map for intuitive navigation.
 
