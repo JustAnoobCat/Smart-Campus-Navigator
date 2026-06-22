@@ -1,51 +1,230 @@
 # 🧭 Smart Campus Navigator
 
-A Java-based web application that helps users navigate efficiently through the university campus by providing the shortest path between locations. Designed to assist students, faculty, and visitors in locating classrooms, labs, offices, and facilities.
+A web-based campus navigation system that helps students, faculty, and visitors find the shortest route between locations inside the university campus.
 
-👨‍💻 **Team Members**:  
-- [Aarush Mandoliya](https://github.com/JustAnoobCat)  
-- [Mansi](https://github.com/blackhat289)
-- [Karan Singh Chauhan](https://github.com/karan-0007)  
+The application models the campus as a graph and uses **Dijkstra's Algorithm** to calculate the shortest path between classrooms, laboratories, offices, libraries, staircases, and other facilities. The computed route is displayed visually on an interactive campus map along with route statistics.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- 🗺️ Interactive campus map
-- 📍 Click-to-select source and destination
-- 📏 Shortest path calculation using Dijkstra’s algorithm
-- 🧑‍🎓 Real campus locations and coordinates mapped manually
-- 🎨 Clean and intuitive HTML/CSS/JS frontend
-- ☕ Java backend logic for navigation computation
+* 🗺️ Interactive campus map visualization
+* 📍 Select source and destination locations
+* 🚶 Shortest path computation using Dijkstra's Algorithm
+* 🏢 Support for classrooms, labs, offices, lifts, staircases, and facilities
+* 🧩 Multi-floor campus navigation
+* 📊 Route summary with distance and estimated walking time
+* 🎨 Modern and responsive user interface
+* ⚡ Real-time path visualization
 
-## 🛠️ Tech Stack
+---
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Java
-- **Pathfinding Algorithm:** Dijkstra's Algorithm
-- **Tooling:** VS Code, JDK
+# 🖥️ Application Screenshots
 
-## 🖼️ Demo Screenshots
+## Home Page
 
-### 1. Selecting Source and Destination
-![image](https://github.com/user-attachments/assets/1809f365-c77a-4cd0-8b63-54266d869598)
+![Home Page](images/home.png)
 
-### 2. Path Displayed in Text
-![image](https://github.com/user-attachments/assets/e385be9c-7981-4bd0-8a27-7734a8a3f19e)
+The landing page provides quick access to campus exploration and route planning features.
 
-### 3. Shortest Path Highlighted on Map
-![image](https://github.com/user-attachments/assets/e64d5c65-392b-4092-a8c2-210cf862cf88)
+---
 
-## 🔍 How It Works
+## Route Finder
 
-1. The map is based on the **Graphic Era Hill University** campus layout. All locations and coordinates were manually mapped by the team for accurate navigation.
-2. User selects a source and destination on the campus map.
-3. The app sends these coordinates to the Java backend.
-4. Dijkstra's algorithm computes the shortest path.
-5. The path is shown in both **text** and **visual format** on the map.
+![Route Finder](images/2.png)
 
-## 📦 Project Setup
+Users can select a starting point and destination to instantly generate the shortest path across the campus.
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/JustAnoobCat/Smart-Campus-Navigator.git
+---
+
+## Interactive Campus Map
+
+### Map View – Part 1
+
+![Campus Map Part 1](images/m1.png)
+
+### Map View – Part 2
+
+![Campus Map Part 2](images/m2.png)
+
+The campus is represented as a graph of interconnected locations including classrooms, laboratories, offices, staircases, lifts, and facilities. Routes are highlighted directly on the map for intuitive navigation.
+
+---
+
+# 🏗️ System Architecture
+
+```text
+User Input
+     │
+     ▼
+Select Source & Destination
+     │
+     ▼
+Campus Graph Construction
+     │
+     ▼
+Dijkstra's Algorithm
+     │
+     ▼
+Shortest Path Calculation
+     │
+     ▼
+Route Visualization
+     │
+     ▼
+Navigation Guidance
+```
+
+---
+
+# ⚙️ Tech Stack
+
+| Category          | Technology             |
+| ----------------- | ---------------------- |
+| Frontend          | HTML, CSS, JavaScript  |
+| Backend           | Java                   |
+| Algorithm         | Dijkstra's Algorithm   |
+| Data Structure    | Graph (Adjacency List) |
+| Development Tools | VS Code, JDK           |
+
+---
+
+# 🔍 How It Works
+
+### Campus Modeling
+
+The university campus is modeled as a weighted graph:
+
+* **Nodes** represent campus locations
+* **Edges** represent walkable paths
+* **Weights** represent distances between locations
+
+### Route Generation
+
+1. User selects a source location
+2. User selects a destination
+3. The graph is loaded into memory
+4. Dijkstra's Algorithm computes the shortest path
+5. Route information is returned
+6. The path is highlighted on the campus map
+7. Distance and navigation statistics are displayed
+
+---
+
+# 🧠 Dijkstra's Algorithm
+
+The system uses **Dijkstra's Algorithm** to compute the shortest path between two campus locations.
+
+### Why Dijkstra?
+
+* Guarantees shortest path results
+* Efficient for campus-sized navigation graphs
+* Handles weighted connections accurately
+* Widely used in real-world navigation systems
+
+### Time Complexity
+
+```text
+O((V + E) log V)
+```
+
+Where:
+
+* **V** = Number of Locations
+* **E** = Number of Connections
+
+---
+
+# 📂 Project Structure
+
+```text
+Smart-Campus-Navigator/
+│
+├── frontend/
+│   ├── index.html
+│   ├── map.html
+│   ├── routefinder.html
+│   ├── css/
+│   └── js/
+│
+├── backend/
+│   ├── Graph.java
+│   ├── Dijkstra.java
+│   └── Navigator.java
+│
+├── images/
+│   ├── home.png
+│   ├── 2.png
+│   ├── m1.png
+│   └── m2.png
+│
+└── README.md
+```
+
+---
+
+# 🚀 Getting Started
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/JustAnoobCat/Smart-Campus-Navigator.git
+```
+
+## Navigate to Project Directory
+
+```bash
+cd Smart-Campus-Navigator
+```
+
+## Run the Application
+
+1. Start the Java backend.
+2. Launch the frontend in your browser.
+3. Open the Route Finder page.
+4. Select source and destination locations.
+5. View the computed shortest route on the campus map.
+
+---
+
+# 🎯 Educational Objectives
+
+This project was developed to demonstrate:
+
+* Graph Data Structures
+* Dijkstra's Algorithm
+* Pathfinding Systems
+* Frontend-Backend Integration
+* Interactive Data Visualization
+* Real-World Problem Solving
+
+---
+
+# 👨‍💻 Team Members
+
+* **Aarush Mandoliya** - Frontend Development, Graph Modeling, Route Visualization
+* **Mansi** - Campus Mapping, Testing, Documentation
+* **Karan Singh Chauhan** - Backend Development, Pathfinding Logic
+
+---
+
+# 🔮 Future Enhancements
+
+* [ ] A* Pathfinding Algorithm
+* [ ] Mobile Responsive Version
+* [ ] Accessibility-Friendly Routes
+* [ ] QR-Based Location Detection
+* [ ] Voice-Guided Navigation
+* [ ] Search-Based Location Finder
+* [ ] Real-Time Crowd Analysis
+* [ ] Indoor Position Tracking
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+Built to make campus navigation smarter, faster, and more accessible for students, faculty, and visitors.
